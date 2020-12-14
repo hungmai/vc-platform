@@ -1,0 +1,149 @@
+{
+    "platform": {
+        "commands": {
+            "add": "Thêm",
+            "activate": "Kích hoạt",
+            "assign": "Gán",
+            "cancel": "Huỷ",
+            "clear": "Xoá",
+            "clear-all": "Xoá tất cả",
+            "clone": "Sao chép",
+            "close": "Đóng",
+            "confirm": "Xác nhận",
+            "copy-link": "Sao chép link",
+            "copy": "Sao chép",
+            "create": "Tạo",
+            "cut": "Cắt",
+            "delete": "Xoá",
+            "download": "Tải xuống",
+            "edit": "Sửa",
+            "export": "Xuất",
+            "generate": "Tạo",
+            "import": "Nhập",
+            "import-sample-data": "Nhập dữ liệu mẫu",
+            "install": "Cài đặt",
+            "manage": "Quản lý",
+            "more": "Thêm",
+            "no": "Không",
+            "new-folder": "Thư mục mới",
+            "new-license": "Gia hạn giấy phép",
+            "ok": "Ok",
+            "paste": "Dán",
+            "pick-selected": "Đã chọn",
+            "preview": "Xem trước",
+            "open-browser": "Mở trong trình duyệt",
+            "redo": "Làm lại",
+            "refresh": "Làm mới",
+            "remove": "Loại bỏ",
+            "reset": "Cài lại",
+            "restart": "Khởi động lại",
+            "save": "Lưu",
+            "send": "Gửi",
+            "select-all": "Chọn tất cả",
+            "settings": "Cài đặt",
+            "sign-out": "Đăng xuất",
+            "undo": "Hoàn tác",
+            "uninstall": "Gỡ cài đặt",
+            "unselect-all": "Bỏ chọn tất cả",
+            "update": "Cập nhật",
+            "upload": "Tải lên",
+            "yes": "Yes",
+            "add-new-property": "Thêm thuộc tính mới",
+            "manage-type-properties": "Quản lý các loại thuộc tính",
+            "manage-profile": "Quản lý hồ sơ",
+            "minimize": "Tối thiểu hoá",
+            "maximize": "Tối đa hoá",
+            "stop-sending": "Dừng gửi",
+            "set-active": "Thiết lập hoạt động",
+            "reject-user": "Từ chối người dùng",
+            "change-password": "Thay đổi mật khẩu",
+            "unlock-account": "Mở khoá tài khoản",
+            "lock-account": "Khoá tài khoản",
+            "today": "Hôm nay",
+            "time": "Thời gian",
+            "now": "Bây giờ",
+            "date": "Ngày",
+            "see-details": "Xem chi tiết"
+        },
+        "list": {
+            "no-data": "Không có dữ liệu",
+            "count": "Đếm"
+        },
+        "placeholders": {
+            "n-a": "N/A",
+            "no-file": "Chọn tập tin",
+            "search-keyword": "Tìm kiếm từ khoá"
+        },
+        "dialogs": {
+            "delete": {
+                "title": "Xác nhận",
+                "message": "Bạn có chắc chắn muốn xóa các mục đã chọn không?"
+            }
+        },
+        "properties": {
+            "short-text": {
+                "title": "Mô tả ngắn gọn",
+                "description": "Mô tả ngắn ít hơn 1024 kí tự."
+            },
+            "long-text": {
+                "title": "Mô tả đầy đủ",
+                "description": "Mô tả đầy đủ không giới hạn ký tự."
+            },
+            "integer": {
+                "title": "Kiểu số nguyên",
+                "description": "Số nguyên."
+            },
+            "decimal": {
+                "title": "Kiểu số thập phân",
+                "description": "Số thập phân với độ chính xác 18 và tỷ lệ 2."
+            },
+            "date-time": {
+                "title": "Kiểu Ngày giờ",
+                "description": "Chọn ngày."
+            },
+            "boolean": {
+                "title": "Kiểu Boolean",
+                "description": "Chuyển loại."
+            },
+            "html": {
+                "title": "HTML",
+                "description": "HTML markup."
+            },
+            "undefined": {
+                "title": "Chưa xác định"
+            },
+            "image": {
+                "title": "Hình ảnh",
+                "description": "Loại hình ảnh."
+            }
+        },
+        "genericValueInput": {
+            "placeholders": {
+                "short-text": "Nhập mô tả ngắn",
+                "secure-string": "Nhập mã bảo mật",
+                "email": "Nhập email",
+                "url": "Nhập URL",
+                "long-text": "Enter long text",
+                "integer": "Nhập số nguyên",
+                "number": "Nhập số thập phân",
+                "date-time": "Chọn ngày",
+                "short-text-multivalue": "Thêm giá trị",
+                "integer-multivalue": "Thêm số nguyên", 
+                "number-multivalue": "Thêm số thập phân",
+                "short-text-dictionary": "Chọn giá trị",
+                "short-text-dictionary-multivalue": "Chọn giá trị",
+                "short-text-multilang": "Nhập giá trị",
+                "long-text-multilang": "Nhập giá trị",
+                "short-text-multivalue-multilang": "Thêm giá trị",
+                "short-text-dictionary-multilang": "Chọn giá trị",
+                "short-text-dictionary-multivalue-multilang": "Chọn giá trị",
+                "long-text-dictionary-multivalue-multilang": "Chọn giá trị"
+            }
+        },
+        "validators": {
+            "uriWithoutQuery": {
+                "error": "Định dạng URI không hợp lệ. Đảm bảo rằng URI không có tham số truy vấn."
+            }
+        }
+    }
+}
