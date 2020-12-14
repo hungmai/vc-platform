@@ -7,7 +7,7 @@
             "cancel": "Huỷ",
             "clear": "Xoá",
             "clear-all": "Xoá tất cả",
-            "clone": "Clone",//review "Sao chép"
+            "clone": "Sao chép",
             "close": "Đóng",
             "confirm": "Xác nhận",
             "copy-link": "Sao chép link",
@@ -48,8 +48,8 @@
             "update": "Cập nhật",
             "upload": "Tải lên",
             "yes": "Yes",
-            "add-new-property": "Add new property",// review "Thêm thuộc tính mới"
-            "manage-type-properties": "Manage type properties",// review "Quản lý các loại thuộc tính"
+            "add-new-property": "Thêm thuộc tính mới",
+            "manage-type-properties": "Quản lý các loại thuộc tính",
             "manage-profile": "Quản lý hồ sơ",
             "minimize": "Tối thiểu hoá",
             "maximize": "Tối đa hoá",
@@ -82,32 +82,32 @@
         },
         "properties": {
             "short-text": {
-                "title": "Short Text",//review "Văn bản ngắn"
-                "description": "Text values less than 1024 chars."// review "Văn bản nhỏ hơn 1024 kí tự."
+                "title": "Mô tả ngắn gọn",
+                "description": "Mô tả ngắn ít hơn 1024 kí tự."
             },
             "long-text": {
-                "title": "Long Text",// review "Văn bản dài"
-                "description": "Huge amount text without size limit."
+                "title": "Mô tả đầy đủ",
+                "description": "Mô tả đầy đủ không giới hạn ký tự."
             },
             "integer": {
-                "title": "Integer",// review "Số nguyên"
-                "description": "Integer number."// review "Số nguyên"
+                "title": "Kiểu số nguyên",
+                "description": "Số nguyên."
             },
             "decimal": {
-                "title": "Số thập phân",
-                "description": "Decimal number with precision 18 and scale 2."// review "Số thập phân với độ chính xác 18 và tỷ lệ 2."
+                "title": "Kiểu số thập phân",
+                "description": "Số thập phân với độ chính xác 18 và tỷ lệ 2."
             },
             "date-time": {
-                "title": "Ngày giờ",
+                "title": "Kiểu Ngày giờ",
                 "description": "Chọn ngày."
             },
             "boolean": {
-                "title": "Boolean",
-                "description": "Switch type."// review "Chuyển loại"
+                "title": "Kiểu Boolean",
+                "description": "Chuyển loại."
             },
             "html": {
                 "title": "HTML",
-                "description": "HTML markup."// review "Đánh dấu HTML"
+                "description": "HTML markup."
             },
             "undefined": {
                 "title": "Chưa xác định"
@@ -119,19 +119,19 @@
         },
         "genericValueInput": {
             "placeholders": {
-                "short-text": "Enter short text",//review "Nhập kí tự ngắn"
-                "secure-string": "Enter secret text",// review "Nhập kí tự bảo mật"
+                "short-text": "Nhập mô tả ngắn",
+                "secure-string": "Nhập mã bảo mật",
                 "email": "Nhập email",
                 "url": "Nhập URL",
-                "long-text": "Enter long text",//review "Nhập kí tự dài"
+                "long-text": "Enter long text",
                 "integer": "Nhập số nguyên",
                 "number": "Nhập số thập phân",
                 "date-time": "Chọn ngày",
-                "short-text-multivalue": "Add value",// review "Thêm giá trị"
-                "integer-multivalue": "Add integer", // review "Thêm số nguyên"
-                "number-multivalue": "Add decimal",// review "Thêm số thập phân"
-                "short-text-dictionary": "Select value",// review "Chọn giá trị"
-                "short-text-dictionary-multivalue": "Select value",// review "Chọn giá trị"
+                "short-text-multivalue": "Thêm giá trị",
+                "integer-multivalue": "Thêm số nguyên", 
+                "number-multivalue": "Thêm số thập phân",
+                "short-text-dictionary": "Chọn giá trị",
+                "short-text-dictionary-multivalue": "Chọn giá trị",
                 "short-text-multilang": "Nhập giá trị",
                 "long-text-multilang": "Nhập giá trị",
                 "short-text-multivalue-multilang": "Thêm giá trị",
@@ -142,7 +142,7 @@
         },
         "validators": {
             "uriWithoutQuery": {
-                "error": "Invalid uri format. Make shure uri dosn't have query params."// review "Định dạng URI không hợp lệ. Đảm bảo rằng URI không có tham số truy vấn."
+                "error": "Định dạng URI không hợp lệ. Đảm bảo rằng URI không có tham số truy vấn."
             }
         }
     }

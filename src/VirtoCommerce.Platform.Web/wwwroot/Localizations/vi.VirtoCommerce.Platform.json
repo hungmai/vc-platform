@@ -7,13 +7,13 @@
             "notifications": "Thông báo",
             "more": "Thêm",
             "settings": "Cài đặt",
-            "dynamic-properties": "Dynamic properties",//review "Thuộc tính động"
+            "dynamic-properties": "Thuộc tính động",
             "security": "Bảo mật",
             "modules": "Modules",
-            "export-import": "Export & Import",//review "Xuất nhập khẩu"
+            "export-import": "Xuất & Nhập",
             "user-profile": "Trang cá nhân",
-            "assets": "Assets",// review "Tài sản"
-            "toggle-favorites": "Shift + Space to toggle favorites",// review "Shift + Space để chuyển đổi mục yêu thích"
+            "assets": "Tài sản/Tài nguyên",
+            "toggle-favorites": "Nhấn Shift + Space để chuyển đổi mục yêu thích",
             "help": "Trợ giúp"
         },
         "navigation": {
@@ -22,7 +22,7 @@
         },
         "blades": {
             "system-info": {
-                "title": "Platform information",// review "Thông tin hệ thống"
+                "title": "Thông tin hệ thống(platform)",
                 "labels": {
                     "clr-version": "CLR version",
                     "is-64-bit-os": "64-bit operating system",
@@ -30,7 +30,7 @@
                 }
             },
             "asset-list": {
-                "title": "Asset management",// review "Quản lý tài sản"
+                "title": "Quản lý tài sản/tài nguyên",
                 "labels": {
                     "picture": "Ảnh",
                     "name": "Tên",
@@ -42,7 +42,7 @@
                 }
             },
             "asset-upload": {
-                "title": "Asset upload",// review "Tải nội dung"
+                "title": "Upload tài sản/tài nguyên",
                 "labels": {
                     "select-files": "Chọn tập tin",
                     "drag-note": "Kéo và thả tập tin vào đây",
@@ -61,28 +61,28 @@
                 }
             },
             "dynamicObject-list": {
-                "title": "Dynamic object types",// review "Đối tượng động"
-                "subtitle": "Pick object type to manage dynamic properties",// review "Chọn đối tượng để quản lý các thuộc tính động"
+                "title": "Các đối tượng động",
+                "subtitle": "Chọn đối tượng để quản lý các thuộc tính động",
                 "labels": {
-                    "no-objects": "No objects supports dynamic properties yet." // review "Không có đối tượng hỗ trợ các thuộc tính động"
+                    "no-objects": "Không có đối tượng hỗ trợ các thuộc tính động."
                 }
             },
             "dynamicProperty-detail": {
-                "title": "Manage property",// review "Quản lý thuộc tính"
-                "subtitle": "Manage property",// review "Quản lý thuộc tính"
-                "subtitle-new": "New property",// review "Thuộc tính mới"
+                "title": "Quản lý thuộc tính",
+                "subtitle": "Quản lý thuộc tính",
+                "subtitle-new": "Thuộc tính mới",
                 "labels": {
-                    "property-name": "Property name",// review "Tên thuộc tính"
+                    "property-name": "Tên thuộc tính",
                     "required": "Bắt buộc",
                     "multivalue": "Đa giá trị",
                     "multilingual": "Đa ngôn ngữ",
-                    "dictionary": "Dictionary",// review "Từ điển"
+                    "dictionary": "Từ điển",// review "Từ điển"
                     "description": "Mô tả",
                     "display-order": "Thứ tự hiển thị",
                     "display-name": "Tên hiển thị",
                     "value-type": "Loại giá trị",
-                    "dictionary-values": "Dictionary values",
-                    "manage-dictionary": "Manage dictionary"
+                    "dictionary-values": "Giá trị trong từ điển",
+                    "manage-dictionary": "Quản lý Từ điển"
                 },
                 "placeholders": {
                     "description": "Nhập mô tả thuộc tính",
@@ -90,19 +90,19 @@
                     "display-order": "Thứ tự hiển thị"
                 },
                 "validations": {
-                    "multivalue": "Multivalue property can have only ShortText, Integer or Decimal value type.",// review "Thuộc tính đa giá trị chỉ có tên ngắn, số nguyên hoặc số thập phân"
+                    "multivalue": "Thuộc tính đa giá trị chỉ có tên ngắn, số nguyên hoặc số thập phân.",
                     "multilingual": "Chỉ loại văn bản hoặc HTML mới có thể là đa ngôn ngữ.",
-                    "dictionary": "Only dictionaries of value type ShortText are supported."// review "Chỉ hỗ trợ dạng văn bản ngắn"
+                    "dictionary": "Chỉ hỗ trợ dạng văn bản ngắn"
                 }
             },
             "dynamicProperty-list": {
-                "subtitle": "Manage dynamic properties",// review "Quản lý thuộc tính động"
+                "subtitle": "Quản lý thuộc tính động",
                 "labels": {
-                    "no-properties": "No dynamic properties yet." // review "Không có thuộc tính động"
+                    "no-properties": "Không có thuộc tính động." 
                 }
             },
             "notifications-menu": {
-                "subtitle": "Working with notifications system" // review "Làm việc với hệ thống thông báo"
+                "subtitle": "Làm việc với hệ thống thông báo"
             },
             "property-dictionary": {
                 "title": "Dictionary values",
@@ -121,7 +121,7 @@
                     "dictionary-name": "Tên bị trùng lặp",
                     "localized-values-required": "Bắt buộc",
                     "localized-values": "Tên bị trùng lặp",
-                    "dictionary": "Only dictionaries of value type ShortText are supported."// review "Chỉ hỗ trợ dạng văn bản ngắn"
+                    "dictionary": "Chỉ những Từ điển của kiểu dữ liệu ngắn được hỗ trợ."
                 },
                 "placeholders": {
                     "dictionary-name": "Nhập tên",
@@ -129,10 +129,10 @@
                 }
             },
             "propertyValue-list": {
-                "title": "Properties values",// review "Giá trị thuộc tính"
-                "subtitle": "Edit properties values",// review "Sửa giá trị thuộc tính"
+                "title": "Các giá trị của thuộc tính",
+                "subtitle": "Sửa giá trị của thuộc tính",
                 "labels": {
-                    "no-properties": "This entity doesn't have any dynamic properties yet. Click 'Manage type properties' and create some properties. Close and reopen current entity view to get dynamic properties loaded."
+                    "no-properties": "Sản phẩm này chưa có thuộc tính động nào. Hãy nhân vào Quản lý thuộc tính This entity doesn't have any dynamic properties yet. Click 'Manage type properties' and create some properties. Close and reopen current entity view to get dynamic properties loaded."
 // review "Chưa có bất kì thuộc tính nào. Vào "Quản lý thuộc tính" và tạo một số thuộc tính. Đóng và mở lại chế độ xem thực thể hiện tại để tải lại các thuộc tính"
                 }
             },
