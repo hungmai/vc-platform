@@ -1,0 +1,945 @@
+{
+    "platform": {
+        "menu": {
+            "home": "Trang chủ",
+            "browse": "Browse",// review "Khảo sát"
+            "configuration": "Cấu hình",
+            "notifications": "Thông báo",
+            "more": "Thêm",
+            "settings": "Cài đặt",
+            "dynamic-properties": "Dynamic properties",//review "Thuộc tính động"
+            "security": "Bảo mật",
+            "modules": "Modules",
+            "export-import": "Export & Import",//review "Xuất nhập khẩu"
+            "user-profile": "Trang cá nhân",
+            "assets": "Assets",// review "Tài sản"
+            "toggle-favorites": "Shift + Space to toggle favorites",// review "Shift + Space để chuyển đổi mục yêu thích"
+            "help": "Trợ giúp"
+        },
+        "navigation": {
+            "back": "Quay lại",
+            "bread-crumb-top": "Tất cả"
+        },
+        "blades": {
+            "system-info": {
+                "title": "Platform information",// review "Thông tin hệ thống"
+                "labels": {
+                    "clr-version": "CLR version",
+                    "is-64-bit-os": "64-bit operating system",
+                    "is-64-bit-process": "64-bit process"
+                }
+            },
+            "asset-list": {
+                "title": "Asset management",// review "Quản lý tài sản"
+                "labels": {
+                    "picture": "Ảnh",
+                    "name": "Tên",
+                    "size": "Kích thước",
+                    "modified": "Đã sửa đổi",
+                    "actions": "Hoạt động",
+                    "group": "Nhóm",
+                    "language": "Ngôn ngữ"
+                }
+            },
+            "asset-upload": {
+                "title": "Asset upload",// review "Tải nội dung"
+                "labels": {
+                    "select-files": "Chọn tập tin",
+                    "drag-note": "Kéo và thả tập tin vào đây",
+                    "progress": "Tiến trình",
+                    "asset-uploaded": "Các nội dung đã được tải lên."
+                },
+                "placeholders": {
+                    "image-url": "Dán tệp URL vào đây"
+                }
+            },
+            "operation-list": {
+                "labels": {
+                    "login": "Đăng nhập",
+                    "details": "Chi tiết",
+                    "time": "Thời gian"
+                }
+            },
+            "dynamicObject-list": {
+                "title": "Dynamic object types",// review "Đối tượng động"
+                "subtitle": "Pick object type to manage dynamic properties",// review "Chọn đối tượng để quản lý các thuộc tính động"
+                "labels": {
+                    "no-objects": "No objects supports dynamic properties yet." // review "Không có đối tượng hỗ trợ các thuộc tính động"
+                }
+            },
+            "dynamicProperty-detail": {
+                "title": "Manage property",// review "Quản lý thuộc tính"
+                "subtitle": "Manage property",// review "Quản lý thuộc tính"
+                "subtitle-new": "New property",// review "Thuộc tính mới"
+                "labels": {
+                    "property-name": "Property name",// review "Tên thuộc tính"
+                    "required": "Bắt buộc",
+                    "multivalue": "Đa giá trị",
+                    "multilingual": "Đa ngôn ngữ",
+                    "dictionary": "Dictionary",// review "Từ điển"
+                    "description": "Mô tả",
+                    "display-order": "Thứ tự hiển thị",
+                    "display-name": "Tên hiển thị",
+                    "value-type": "Loại giá trị",
+                    "dictionary-values": "Dictionary values",
+                    "manage-dictionary": "Manage dictionary"
+                },
+                "placeholders": {
+                    "description": "Nhập mô tả thuộc tính",
+                    "display-name": "Nhập tên hiển thị",
+                    "display-order": "Thứ tự hiển thị"
+                },
+                "validations": {
+                    "multivalue": "Multivalue property can have only ShortText, Integer or Decimal value type.",// review "Thuộc tính đa giá trị chỉ có tên ngắn, số nguyên hoặc số thập phân"
+                    "multilingual": "Chỉ loại văn bản hoặc HTML mới có thể là đa ngôn ngữ.",
+                    "dictionary": "Only dictionaries of value type ShortText are supported."// review "Chỉ hỗ trợ dạng văn bản ngắn"
+                }
+            },
+            "dynamicProperty-list": {
+                "subtitle": "Manage dynamic properties",// review "Quản lý thuộc tính động"
+                "labels": {
+                    "no-properties": "No dynamic properties yet." // review "Không có thuộc tính động"
+                }
+            },
+            "notifications-menu": {
+                "subtitle": "Working with notifications system" // review "Làm việc với hệ thống thông báo"
+            },
+            "property-dictionary": {
+                "title": "Dictionary values",
+                "subtitle": "Manage dictionary values",
+                "labels": {
+                    "edit-value": "Sửa giá trị",
+                    "new-value": "Giá trị mới",
+                    "dictionary-name": "Dictionary entry name",
+                    "localized-values": "Localized values",
+                    "current-values": "Giá trị hiện tại",
+                    "name": "Tên",
+                    "values": "Giá trị"
+                },
+                "validations": {
+                    "dictionary-name-required": "Bắt buộc",
+                    "dictionary-name": "Tên bị trùng lặp",
+                    "localized-values-required": "Bắt buộc",
+                    "localized-values": "Tên bị trùng lặp",
+                    "dictionary": "Only dictionaries of value type ShortText are supported."// review "Chỉ hỗ trợ dạng văn bản ngắn"
+                },
+                "placeholders": {
+                    "dictionary-name": "Nhập tên",
+                    "localized-values": "Nhập giá trị"
+                }
+            },
+            "propertyValue-list": {
+                "title": "Properties values",// review "Giá trị thuộc tính"
+                "subtitle": "Edit properties values",// review "Sửa giá trị thuộc tính"
+                "labels": {
+                    "no-properties": "This entity doesn't have any dynamic properties yet. Click 'Manage type properties' and create some properties. Close and reopen current entity view to get dynamic properties loaded."
+// review "Chưa có bất kì thuộc tính nào. Vào "Quản lý thuộc tính" và tạo một số thuộc tính. Đóng và mở lại chế độ xem thực thể hiện tại để tải lại các thuộc tính"
+                }
+            },
+            "edit-array": {
+                "validations": {
+                    "new-value-required": "Bắt buộc"
+                },
+                "labels": {
+                    "new-value": "Giá trị mới",
+                    "current-values": "Giá trị hiện tại",
+                    "values": "Giá trị"
+                },
+                "placeholders": {
+                    "value": "Nhập giá trị"
+                }
+            },
+            "export-main": {
+                "title": "Xuất dữ liệu",
+                "labels": {
+                    "platform-entries": "Platform entries",
+                    "choose-modules": "Chọn mô đun để xuất",
+                    "download-url": "Tải xuống Url",
+                    "errors": "Lỗi",
+                    "start-export": "Bắt đầu xuất ",
+                    "start": "Start",
+                    "end": "Kết thúc"
+                },
+                "menu": {
+                    "security": {
+                        "title": "Bảo mật",
+                        "description": "Tài khoản và vai trò"
+                    },
+                    "binary": {
+                        "title": "Binary",
+                        "description": "Binary data"
+                    },
+                    "settings": {
+                        "title": "Cài đặt",
+                        "description": "Cài đặt nền tảng"
+                    }
+                }
+            },
+            "import-main": {
+                "title": "Nhập dữ liệu",
+                "labels": {
+                    "start-import": "Bắt đầu nhập",
+                    "select-file": "Select .zip file to import. The file must be produced by Commerce Manager data export.",// review "Chọn tệp .zip để nhập. Tệp phải được tạo ra bởi trình quản lý dữ liệu thương mại"
+                    "upload-progress": "Tiến trình tải lên",
+                    "import-data-information": "Nhập thông tin dữ liệu",
+                    "author": "người tạo",
+                    "data-file-created": "Tệp dữ liệu được tạo",
+                    "created-platform-version": "Created in platform version",// review "Được tạo trong phiên bản nền tảng"
+                    "platform-entries": "Platform entries",// review "Mục nền tảng"
+                    "choose-modules": "Choose modules to import",// review "Chọn mô đun để nhập"
+                    "no-data": "Không có dữ liệu",
+                    "errors": "Lỗi",
+                    "start": "Bắt đầu",
+                    "end": "Kết thúc"
+                },
+                "menu": {
+                    "security": {
+                        "title": "Bảo mật",
+                        "description": "Tài khoản và vai trò"
+                    },
+                    "binary": {
+                        "title": "Binary",
+                        "description": "Binary data"
+                    },
+                    "settings": {
+                        "title": "Cài đặt",
+                        "description": "Platform settings"// review "Cài đặt nền tảng"
+                    }
+                }
+            },
+            "exportImport-main": {
+                "title": "Xuất và nhập dữ liệu",
+                "menu": {
+                    "export": {
+                        "title": "Xuất",
+                        "description": "Dữ liệu sẽ được lưu vào một tệp để nhập sau"
+                    },
+                    "import": {
+                        "title": "Nhập",
+                        "description": "Nhập dữ liệu từ tệp đã xuất"
+                    }
+                }
+            },
+            "resolve-result": {
+                "title": "Xem trước kết quả",
+                "labels": {
+                    "subject": "Chủ đề",
+                    "body": "Phần thân"
+                }
+            },
+            "module-settings-detail": {
+                "title": "Module settings"
+            },
+            "module-wizard-progress-step": {
+                "title-install": "Cài đặt mô đun",
+                "title-update": "Cập nhật mô đun",
+                "title-uninstall": "Gỡ mô đun",
+                "labels": {
+                    "start": "Bắt đầu",
+                    "end": "Kết thúc",
+                    "progress-messages": "Thông báo tiến độ",
+                    "process-completed": "Qúa trình cài đặt mô đun đã hoàn tất",
+                    "restart-application": "Khởi động lại ứng dụng ngay bây giờ hoặc để sau."
+                }
+            },
+            "module-detail": {
+                "title": "Thông tin mô đun",
+                "labels": {
+                    "i-accept-the": "Tôi chấp nhận",
+                    "license-link": "Giấy phép",
+                    "license": "Giấy phép",
+                    "agreement": "Hợp đồng",
+                    "install-from-file": "Cài đặt/ cập nhật mô đun từ tệp",
+                    "select-module-file": "Upload a module (.zip) file from outside the central modules repository",// review "Tải lên tệp mô-đun (.zip) từ bên ngoài kho lưu trữ mô-đun trung tâm"
+                    "upload-progress": "Quá trình tải lên",
+                    "module-info": "Thông tin mô đun",
+                    "title": "Tiêu đề",
+                    "official": "Mô đun chính thức bởi {{$owner}}",
+                    "owners": "Phát triển bởi {{$owner}}",
+                    "author": "Người tạo",
+                    "authors": "Người tạo",
+                    "id": "ID",
+                    "version": "Phiên bản",
+                    "project-information": "Thông tin dự án",
+                    "description": "Mô tả",
+                    "platform-version": "Platform Version", // review "Phiên bản nền tảng"
+                    "dependencies": "Sự phụ thuộc",
+                    "tags": "Tags",
+                    "install-version": "Cài đặt phiên bản",
+                    "errors": "Lỗi"
+                }
+            },
+            "modules-main": {
+                "title": "Modules",
+                "labels": {
+                    "updates": "Cập nhật",
+                    "available": "Có sẵn",
+                    "installed": "Đã cài đặt",
+                    "withErrors": "Lỗi",
+                    "advanced": "Nâng cao"
+                }
+            },
+            "modules-list": {
+                "subtitle": "Modules management",// review "Quản lý mô đun"
+                "labels": {
+                    "grouping": "Show Module bundles",// review "Hiển thị gói mô đun"
+                    "ungrouped": "Khác",
+                    "no-updates": "Không tìm thấy bản cập nhật nào",
+                    "no-modules-part1": "Không có mô-đun mới để cài đặt",
+                    "no-installed-modules": "Không tìm thấy mô-đun đã cài đặt",
+                    "icon": "Biểu tượng",
+                    "up-to-date": "Mô-đun được cập nhật",
+                    "update-available": "Cập nhật có sẵn cho mô-đun này",
+                    "module": "Mô-dun",
+                    "version": "Phiên bản",
+                    "author": "Người tạo",
+                    "installed": "Các mô-đun đã cài đặt",
+                    "manual-install-disabled": "Manual modules install was disabled due to prohibited refreshing probing path (RefreshProbingFolderOnStart=false)."// review "Cài đặt mô-đun thủ công đã bị tắt do đường dẫn bị chặn (RefreshProbingFolderOnStart=false)."
+                }
+            },
+            "history": {
+                "title": "Hệ thống sự kiện",
+                "subtitle": "Lịch sử sự kiện",
+                "labels": {
+                    "type": "Loại",
+                    "title": "Tiêu đề",
+                    "created": "Đã tạo"
+                }
+            },
+            "historyDetailDefault": {
+                "title": "Chi tiết sự kiện",
+                "subtitle": "Chi tiết sự kiện"
+            },
+            "menuHeader": {
+                "labels": {
+                    "history": "Lịch sử",
+                    "clear-recent": "Xoá tất cả gần đây"
+                }
+            },
+            "account-changePassword": {
+                "labels": {
+                    "current-password": "Mật khẩu hiện tại",
+                    "new-password": "Mật khẩu mới",
+                    "repeat-password": "Lặp lại mật khẩu"
+                },
+                "validations": {
+                    "current-password": "Bắt buộc",
+                    "new-password": "Mật khẩu cũ và mới giống nhau!",
+                    "repeat-password": "Mật khẩu mới không khớp"
+                },
+                "placeholders": {
+                    "current-password": "Nhập mật khẩu hiện tại",
+                    "new-password": "Nhập mật khẩu mới",
+                    "repeat-password": "Lặp lại mật khẩu mới"
+                }
+            },
+            "account-resetPassword": {
+                "subtitle": "Thay đổi mật khẩu người dùng",
+                "labels": {
+                    "new-password": "Mật khẩu mới",
+                    "repeat-password": "Lặp lại mật khẩu",
+                    "force-password-change": "Yêu cầu người dùng này thay đổi mật khẩu của họ cho lần đăng nhập sau"
+                },
+                "validations": {
+                    "repeat-password": "Mật khẩu mới không khớp!",
+                    "invalid-token": "Mã thông báo đặt lại mật khẩu không hợp lệ hoặc hết hạn",
+                    "password-too-weak": "Mật khẩu mới không tuân thủ một hoặc nhiều chính sách bảo mật:",
+                    "passwordViolatesMinLength": "Mật khẩu phải dài từ {{minPasswordLength}} ký tự trở lên",
+                    "passwordMustHaveLowerCaseLetters": "Mật khẩu phải có ít nhất một chữ thường ('a' - 'z')",
+                    "passwordMustHaveUpperCaseLetters": "Mật khẩu phải có ít nhất một chữ hoa ('A' - 'Z')",
+                    "passwordMustHaveDigits": "Mật khẩu phải có ít nhất một chữ số ('0' - '9')",
+                    "passwordMustHaveSpecialCharacters": "Mật khẩu phải có ít nhất một ký tự không phải chữ và số"
+                },
+                "placeholders": {
+                    "new-password": "Điền mật khẩu mới",
+                    "repeat-password": "Lặp lại mật khẩu mới"
+                }
+            },
+            "account-detail": {
+                "title-new": "Tài khoản mới",
+                "labels": {
+                    "user-information": "Thông tin người dùng",
+                    "is-administrator": "Là quản trị viên",
+                    "account-type": "Loại tài khoản",
+                    "login": "Đăng nhập",
+                    "account-state": "Trạng thái tài khoản",
+                    "account-email": "Email",
+                    "locked-state": "Trạng thái bị khóa"
+                },
+                "placeholders": {
+                    "account-type": "Chọn ...",
+                    "email": "Điền email",
+                    "user-name": "Điền tên đăng nhập"
+                }
+            },
+            "account-list": {
+                "title": "Người dùng",
+                "subtitle": "Dịch vụ bảo mật",
+                "labels": {
+                    "name": "Tên",
+                    "account-type": "Loại tài khoản",
+                    "login": "Đăng nhập",
+                    "state": "Trạng thái"
+                }
+            },
+            "account-api": {
+                "labels": {
+                    "api-key": "Api key",
+                    "is-active": "Đang hoạt động"
+                },
+                "placeholders": {
+                    "api-key": "Nhập một Api key"
+                }
+            },
+            "role-detail": {
+                "subtitle": "Chi tiết vai trò",
+                "labels": {
+                    "summary": "Tóm tắt",
+                    "name": "Tên",
+                    "description": "Mô tả",
+                    "assigned-permissions": "Quyền được giao",
+                    "permission-name": "Tên",
+                    "assigned-scopes": "Phạm vi được giao",
+                    "no-permissions-assigned": "Không có quyền được giao"
+                },
+                "placeholders": {
+                    "name": "Nhập tên",
+                    "description": "Nhập mô tả"
+                }
+            },
+            "account-roles": {
+                "subtitle": "Phân công vai trò",
+                "labels": {
+                    "select-roles": "Chọn vai trò để giao.",
+                    "no-roles": "Không có vai trò để giao."
+                }
+            },
+            "account-roles-list": {
+                "title": "",
+                "labels": {
+                    "assigned-roles": "Vai trò được giao",
+                    "no-assigned": "Không có vai trò nào được giao."
+                }
+            },
+            "permission-scopes": {
+                "subtitle": "Thiết lập phạm vi quyền",
+                "labels": {
+                    "select-bounded-scopes": "Chọn phạm vi giới hạn",
+                    "selected": "Đã chọn",
+                    "scope-name": "Tên phạm vi và thông số",
+                    "no-scopes": "Không có phạm vi."
+                }
+            },
+            "role-permissions": {
+                "subtitle": "Giao quyền",
+                "labels": {
+                    "select-permissions": "Chọn quyền"
+                }
+            },
+            "new-role-wizard": {
+                "title": "Vai trò mới",
+                "labels": {
+                    "summary": "Tóm tắt",
+                    "name": "Tên",
+                    "description": "Mô tả",
+                    "assign-permissions": "Giao quyền"
+                },
+                "placeholders": {
+                    "name": "Nhập tên",
+                    "description": "Nhập mô tả"
+                }
+            },
+            "role-list": {
+                "title": "Vai trò",
+                "subtitle": "Dịch vụ bảo mật",
+                "labels": {
+                    "name": "Tên"
+                }
+            },
+            "oauthapps": {
+                "labels": {
+                    "clientId": "Khách hàng id",
+                    "displayName": "Tên hiển thị",
+                    "type": "Loại",
+                    "clientSecret": "Bí mật khách hàng",
+                    "assigned-permissions": "Quyền được giao",
+                    "redirectUris": "Chuyển hướng URIs",
+                    "postLogoutRedirectUris": "Sau đăng xuất chuyển hướng URIs"
+                },
+                "placeholders": {
+                    "clientId": "Nhập ID khách hàng",
+                    "displayName": "Nhập tên hiển thị",
+                    "type": "Kiểu đầu vào",
+                    "clientSecret": "Nhập bí mật của khách hàng"
+                }
+            },
+            "oauthapps-list": {
+                "title": "Ứng dụng OAuth",
+                "subtitle": "Dịch vụ bảo mật"
+            },
+            "oauthapps-detail": {
+                "title": "Chỉnh sửa ứng dụng OAuth",
+                "title-new": "Dịch vụ bảo mật",
+                "subtitle": "",
+                "labels": {
+                    "clientSecret-warning": "Cảnh báo! Bạn phải sao chép bí mật ngay bây giờ. Nó sẽ được ẩn sau khi đóng ứng dụng.",
+                    "urls": "Urls"
+                },
+                "blades": {
+                    "edit-redirectUris": {
+                        "title": "Chuyển hướng uris",
+                        "subtitle": "Manage redirect uris"// review "Quản lý chuyển hướng uris"
+                    },
+                    "edit-postLogoutRedirectUris": {
+                        "title": "Post logout redirect uris",// review " Chuyển hướng uris sau đăng xuất"
+                        "subtitle": "Manage post logout redirect uris"// review "Quản lý chuyển hướng uris sau đăng xuất"
+                    }
+                }
+            },
+            "login": {
+                "labels": {
+                    "sign-in": "Đăng nhập vào {{title}} quản lý",
+                    "login": "Đăng nhập",
+                    "password": "Mật khẩu",
+                    "remember-me": "Duy trì đăng nhập",
+                    "external-sign-in": "Đăng nhập bằng {{displayName}}",
+                    "forgot-password": "Quên mật khẩu?",
+                    "log-in": "Đăng nhập"
+                }
+            },
+            "forgotpassword": {
+                "title": "Quên mật khẩu?",
+                "labels": {
+                    "login": "Đăng nhập email",
+                    "description": "Chúng tôi sẽ gửi cho bạn một email với hướng dẫn về cách đặt lại mật khẩu của bạn.",
+                    "success": "Email với hướng dẫn đã được gửi cho bạn.",
+                    "fail": "Xin lỗi, chúng tôi không thể đặt lại mật khẩu cho người dùng này.",
+                    "back": "Trở lại",
+                    "submit": "Gửi đi"
+                },
+                "placeholders": {
+                    "login-or-email": "Vui lòng nhập thông tin đăng nhập hoặc email"
+                }
+            },
+            "resetpassword": {
+                "title": "Đặt lại mật khẩu",
+                "labels": {
+                    "success": "Mật khẩu của bạn đã được đặt lại",
+                    "fail": "Xin lỗi, chúng tôi không thể đặt lại mật khẩu cho người dùng này.",
+                    "submit": "Cài lại",
+                    "log-in": "Đăng nhập"
+                }
+            },
+            "license": {
+                "title": "Giấy phép hiện tại",
+                "title-new": "Kích hoạt giấy phép mới",
+                "license-info": "Thông tin giấy phép",
+                "license-activation": "Kích hoạt giấy phép",
+                "labels": {
+                    "info-running-no-license": "Phiên bản này của Virto Commerce đang chạy trên",
+                    "info-open-source-license": "Open Source Community license.",
+                    "info0": "Nhận hoặc gia hạn giấy phép:",
+                    "info1": "Submit the ",//review "Gửi"
+                    "info2": "Chúng tôi sẽ xử lý yêu cầu của bạn và sẽ sớm liên hệ với bạn.",
+                    "info3": "Khi bạn nhận được \ "Mã kích hoạt \" và / hoặc tệp Giấy phép, hãy điền vào một trong các trường kích hoạt bên dưới.",
+                    "info4": "Hệ thống sẽ hiển thị cho bạn thông tin giấy phép mới. Xem lại và nhấp vào \ "Kích hoạt \" để xác nhận.",
+                    "customer": "Giấy phép được cấp cho",
+                    "type": "Loại",
+                    "expiration": "Hết hạn",
+                    "email": "Email của khách hàng",
+                    "request-license": "Mẫu yêu cầu cấp phép.",
+                    "code-descr": "Nhập giấy phép đã nhận \ "Mã kích hoạt \" và nhấn [Enter]. Đây là phương pháp kích hoạt giấy phép nhanh nhất. (Yêu cầu kết nối internet)",
+                    "file-descr": "Theo tùy chọn, cung cấp Giấy phép đã nhận. (Kích hoạt ngoại tuyến)",
+                    "upload-progress": "Tiến trình tải lên",
+                    "errors": "Lỗi kích hoạt"
+                },
+                "placeholders": {
+                    "code": "Nhập mã kích hoạt"
+                }
+            },
+            "new-account-wizard": {
+                "labels": {
+                    "login": "Đăng nhập",
+                    "email": "Email",
+                    "password": "Mật khẩu",
+                    "repeat-password": "Nhập lại mật khẩu",
+                    "assign-roles": "Phân công vai trò"
+                },
+                "placeholders": {
+                    "email": "Nhập email",
+                    "login": "Nhập thông tin đăng nhập",
+                    "password": "Nhập mật khẩu mớ",
+                    "repeat-password": "Lặp lại mật khẩu mới"
+                },
+                "validations": {
+                    "repeat-password": "Mật khẩu đã nhập không khớp!",
+                    "password-too-weak": "Mật khẩu đã nhập không tuân thủ một hoặc nhiều chính sách bảo mật mật khẩu:"
+                }
+            },
+            "security-main": {
+                "title": "Bảo mật",
+                "subtitle": "Quản lý người dùng"
+            },
+            "entitySetting-list": {
+                "title": "Cài đặt"
+            },
+            "setting-dictionary": {
+                "subtitle": "Manage dictionary values",
+                "labels": {
+                    "new-value": "Vui lòng nhập giá trị",
+                    "current-values": "Giá trị hiện tại",
+                    "value": "Giá trị"
+                },
+                "validations": {
+                    "new-value-required": "Bắt buộc",
+                    "new-value": "Giá trị bị trùng lặp"
+                },
+                "placeholders": {
+                    "new-value": "Vui lòng nhập giá trị"
+                }
+            },
+            "settings-detail": {
+                "title": "Cài đặt giá trị"
+            },
+            "settingGroup-list": {
+                "title": "Cài đặt"
+            },
+            "user-profile": {
+                "title": "Hồ sơ người dùng - Vi",
+                "labels": {
+                    "language": "Ngôn ngữ",
+                    "language-description": "Display language. Clear to use browser or fallback language.",// review "Hiển thị ngôn ngữ. Xóa để sử dụng trình duyệt hoặc ngôn ngữ dự phòng.
+                    "regional-format": "Regional format",// review "Định dạng khu vực"
+                    "regional-format-description": "Regional format of numbers, currency, date and time. Clear to use browser or fallback regional format.",// Review "Định dạng khu vực số, tiền tệ, ngày và giờ. Xoá để sử dụng trình duyệt và khu vực định dạng dự phòng".
+                    "time-zone": "Múi giờ",
+                    "time-zone-description": "Current user time zone in IANA (tz database) format. Select the nearest city in your time zone. Clear to use browser or fallback time zone.",//review "Múi giờ hiện tại của người dùng ở định dạng IANA (cơ sở dữ liệu tz). Chọn thành phố gần nhất trong múi giờ của bạn. Xóa để sử dụng trình duyệt hoặc múi giờ dự phòng."
+                    "use-time-ago": "Use time ago format if it is possible",''review "Sử dụng định dạng thời gian trước đó nêú có thể"
+                    "full-date-threshold-group": "Use full date format for dates earlier than...",// review "Sử dụng định dạng đầy đủ cho ngày sớm hơn..."
+                    "full-date-threshold-description": "Numeric value of time units",// review "Giá trị số của đơn vị thời gian"
+                    "full-date-threshold-unit-description": "Đơn vị thời gian (tức là giờ hoặc năm)"
+                },
+                "placeholders": {
+                    "full-date-threshold": "Nhập giá trị giới hạn",
+                    "full-date-threshold-unit": "Chọn đơn vị gía trị giới hạn"
+                },
+                "full-date-threshold-units": {
+                    "Never": "Không bao giờ",
+                    "Seconds": "Giây",
+                    "Minutes": "Phút",
+                    "Hours": "Giờ",
+                    "Days": "Ngày",
+                    "Weeks": "Tuần",
+                    "Months": "Months",
+                    "Quarters": "Quý",
+                    "Years": "Năm"
+                }
+            },
+            "change-password": {
+                "title": "Vui lòng nhập mật khẩu mới cho người dùng '{{userName}}'",
+                "password": "Mật khẩu mới: ",
+                "confirm": "Lặp lại mật khẩu mới",
+                "save": "Đổi mật khẩu",
+                "postpone": "Hoãn lại",
+                "force-change-info": "Bạn phải thay đổi mật khẩu để tiếp tục sử dụng trình quản lý."
+            },
+            "loginOnBehalf-list": {
+                "title": "Đăng nhập bằng {{name}}",
+                "labels": {
+                    "pick-url-to-login": "Chọn một Url để đăng nhập",
+                    "no-login-urls": "Chưa có Url đăng nhập"
+                },
+                "validations": {
+                    "secure-url-missing": "URL an toàn bị thiếu. Nhấp để nhập URL đăng nhập an toàn theo cách thủ công."
+                }
+            }
+        },
+        "templates": {
+            "sampleDataChoose": {
+                "labels": {
+                    "choose-sample-data-type": "Chọn kiểu dữ liệu mẫu",
+                    "size": "Kích thước",
+                    "version": "Phiên bản"
+                }
+            },
+            "sampleDataInitialization": {
+                "labels": {
+                    "sample-data-initialization": "Khởi tạo dữ liệu mẫu",
+                    "starting-initialization": "Đang bắt đầu khởi tạo dữ liệu mẫu ...",
+                    "errors": "Lỗi",
+                    "start": "Bắt đầu",
+                    "end": "Kết thúc"
+                }
+            },
+            "licensing": {
+                "license-absent": "Giấy phép cộng đồng",
+                "license-present": "Giấy phép {{type}}, hết hạn vào {{expirationDate | amParse | date}}",
+                "community": "Đang chạy phiên bản cộng đồng, nhấp để yêu cầu giấy phép thương mại.",
+                "expired": "Giấy phép của bạn đã hết hạn vào {{expirationDate | amParse | date}}, vui lòng gia hạn.",
+                "purchase": "Mua",
+                "renew": "Gia hạn",
+                "expiration-date": "Ngày hết hạn"
+            },
+            "modulesAutoInstallation": {
+                "labels": {
+                    "module-auto-installation": "Tự động cài đặt mô-đun",
+                    "loading": "Đang truy xuất thông tin mô-đun ...",
+                    "finished": "Cài đặt xong. Nhấp vào Khởi động lại để tiếp tục.",
+                    "start": "Bắt đầu",
+                    "end": "Kết thúc"
+                }
+            }
+        },
+        "widgets": {
+            "operations": {
+                "title": "Thay đổi",
+                "blade-subtitle": "Lịch sử thay đổi"
+            },
+            "dynamicProperty": {
+                "title": "Thuộc tính động"
+            },
+            "entitySettings": {
+                "title": "Cài đặt"
+            },
+            "accountApi": {
+                "title": "Api key",
+                "blade-subtitle": "Api key"
+            },
+            "accountRoles": {
+                "title": "Vai trò",
+                "blade-subtitle": "Quản lý vai trò"
+            }
+        },
+        "dialogs": {
+            "folders-delete": {
+                "title": "Xác nhận xoá",
+                "message": "Bạn có chắc chắn muốn xóa các thư mục hoặc tệp đã chọn?"
+            },
+            "properties-save": {
+                "title": "Lưu thay đổi",
+                "message": "Các thuộc tính đã được sửa đổi. Bạn có muốn xác nhận các thay đổi không?"
+            },
+            "notification-template-save": {
+                "title": "Lưu thay đổi",
+                "message": "Mẫu thông báo đã được sửa đổi. Bạn có muốn lưu các thay đổi?"
+            },
+            "role-save": {
+                "title": "Lưu thay đổi",
+                "message": "Vai trò đã được sửa đổi. Bạn có muốn lưu các thay đổi?"
+            },
+            "roles-delete": {
+                "title": "Xác nhận xoá",
+                "message": "Bạn có chắc chắn muốn xóa các Vai trò đã chọn?"
+            },
+            "account-save": {
+                "title": "Lưu thay đổi",
+                "message": "Tài khoản đã được sửa đổi. Bạn có muốn lưu các thay đổi?"
+            },
+            "account-delete": {
+                "title": "Xác nhận xoá",
+                "message": "Bạn có chắc chắn muốn xóa các tài khoản đã chọn?"
+            },
+            "oauthapps-save": {
+                "title": "Lưu thay đổi",
+                "message": "Ứng dụng OAuth đã được sửa đổi. Bạn có muốn lưu các thay đổi?"
+            },
+            "oauthapps-delete": {
+                "title": "Xác nhận xoá",
+                "message": "Bạn có chắc chắn muốn xóa ứng dụng OAuth đã chọn không?"
+            },
+            "dynamic-property-delete": {
+                "title": "Xác nhận xoá",
+                "message": "Bạn có chắc chắn muốn xóa Thuộc tính động này không?"
+            },
+            "settings-value-delete": {
+                "title": "Xác nhận xoá",
+                "message": "Bạn có chắc chắn muốn xóa các Giá trị đã chọn không?"
+            },
+            "settings-save": {
+                "title": "Save changes",
+                "message": "Các cài đặt đã được sửa đổi. Bạn có muốn xác nhận các thay đổi không?"
+            },
+            "settings-delete": {
+                "title": "Xác nhận xoá",
+                "message": "Các cài đặt đã được sửa đổi. Bạn có muốn lưu các thay đổi?"
+            },
+            "email-sending-success": {
+                "title": "Gửi thành công",
+                "message": "Email đã được gửi thành công!"
+            },
+            "email-send-error": {
+                "title": "Lỗi khi gửi ",
+                "message": "Email chưa được gửi! Lỗi: {{error}}"
+            },
+            "dictionary-items-delete": {
+                "title": "Xác nhận xoá",
+                "message": "Are you sure you want to delete {{quantity}} selected dictionary item(s)?"
+            },
+            "module-action": {
+                "title-install": "Xác nhận cài đặt",
+                "title-update": "Cập nhật thông ",
+                "title-delete": "Xác nhận gỡ cài đặt",
+                "message0-install": "Bạn sắp cài đặt",
+                "message0-update": "Bạn sắp cập nhật:",
+                "message0-delete": "Bạn sắp gỡ cài đặt:",
+                "message1-install": "Các phần phụ thuộc sau cũng sẽ được cài đặt:",
+                "message1-delete": "Các mô-đun phụ thuộc sau đây cũng sẽ được gỡ cài đặt:",
+                "message2-install": "Install selection and dependencies?",// review "Chọn cài đặt và sự ràng buộc?"
+                "message2-update": "Cập nhật lựa chọn và sự ràng buộc?",
+                "message2-delete": "Gỡ cài đặt này và TẤT CẢ các mô-đun phụ thuộc?"
+            },
+            "module-delete": {
+                "title": "Xác nhận xoá",
+                "message": "Bạn có chắc chắn muốn gỡ cài đặt Mô-đun này không?"
+            },
+            "api-key-delete": {
+                "title": "Xác nhận xoá",
+                "message": "Bạn có chắc chắn muốn xóa API key này không?"
+            },
+            "app-restart": {
+                "title": "Tắt ứng dụng",
+                "message": "Để áp dụng các thay đổi, cần phải khởi động lại ứng dụng. Tùy thuộc vào dịch vụ lưu trữ, ứng dụng sẽ được khởi động lại tự động hoặc bạn nên thực hiện thủ công. Bạn có chắc chắn muốn tắt ứng dụng ngay bây giờ không?"
+            },
+            "error-details": {
+                "title": "Chi tiết lỗi"
+            },
+            "enter-login-url": {
+                "title": "Đăng nhập đại diện",
+                "labels": {
+                    "enter-login-url": "Vui lòng nhập URL bảo mật đăng nhập"
+                },
+                "placeholders": {
+                    "secure-url": "https://vcshop.com"
+                }
+            },
+            "asset-upload-error": {
+                "title": "Lỗi khi tải lên",
+                "message": "Cần chọn một thư mục! Không thể tải tệp lên gốc!"
+            },
+            "run-import": {
+                "title": "Xác nhận nhập khẩu",
+                "message": "Bạn có chắc chắn muốn nhập dữ liệu mẫu không?"
+            },
+            "create-folder": {
+                "title": "Tên thư mục phải tuân theo các quy tắc đặt tên sau: \ n Tên thư mục phải dài từ 3 đến 63 ký tự. \ N Tên thư mục phải bắt đầu bằng chữ cái hoặc số và chỉ được chứa các chữ cái, số và dấu gạch ngang (-) ký tự. \ n Mọi ký tự gạch ngang (-) phải được đặt ngay trước và theo sau là một chữ cái hoặc số; Không cho phép dấu gạch ngang liên tiếp. \ n Tất cả các chữ cái trong tên thư mục phải là chữ thường."
+            },
+            "storefront-cache-reset-successfully": {
+                "title": "Đặt lại bộ nhớ cache",
+                "message": "Bộ nhớ cache đã được đặt lại thành công"
+            }
+        },
+        "commands": {
+            "login-on-behalf": "Đăng nhập đại diện",
+            "reset-storefront-cache": "Đặt lại bộ nhớ cache"
+        }
+    },
+    "permissions": {
+        "platform:asset:access": "Cho phép xem ội dung trong menu chính",
+        "platform:asset:delete": "Cho phép xóa nội dung nền tảng",
+        "platform:asset:update": "Cho phép thay đổi nội dung nền tảng",
+        "platform:asset:create": "Cho phép tải lên nội dung mới",
+        "platform:asset:read": "Cho phép tải xuống nội dung nền tảng",
+        "platform:module:read": "Cho phép xem chi tiết mô-đun",
+        "platform:module:access": "Cho phép xem Mô-đun trong menu chính",
+        "platform:module:manage": "Cho phép cài đặt / gỡ cài đặt mô-đun",
+        "platform:setting:read": "Cho phép đọc cài đặt nền tảng",
+        "platform:setting:access": "Cho phép xem Cài đặt trong menu chính",
+        "platform:setting:update": "Cho phép thay đổi cài đặt nền tảng",
+        "platform:dynamic_properties:read": "Cho phép xem chi tiết các thuộc tính động",
+        "platform:dynamic_properties:create": "Cho phép tạo các thuộc tính động mới",
+        "platform:dynamic_properties:access": "Cho phép xem Thuộc tính động trong menu chính",
+        "platform:dynamic_properties:update": "Cho phép thay đổi thuộc tính động",
+        "platform:dynamic_properties:delete": "Cho phép xoá thuộc tính động",
+        "platform:security:read": "Cho phép xem chi tiết người dùng và vai trò",
+        "platform:security:create": "Cho phép tạo người dùng và vai trò mới",
+        "platform:security:access": "Cho phép xem Bảo mật trong menu chính",
+        "platform:security:update": "Cho phép thay đổi người dùng và vai trò",
+        "platform:security:delete": "Cho phép xóa người dùng và vai trò",
+        "background_jobs:manage": "ho phép truy cập vào bảng điều khiển Hangfire",
+        "platform:exportImport:access": "Cho phép xem Xuất / Nhập trong menu chính",
+        "platform:import": "Cho phép nhập dữ liệu nền tảng và mô-đun",
+        "platform:export": "Cho phép xuất dữ liệu nền tảng và mô-đun",
+        "platform:security:loginOnBehalf": "Đăng nhập thay mặt cho khách hàng"
+    },
+    "settings": {
+        "VirtoCommerce": {
+            "ModulesAutoInstalled": {
+                "description": "Flag cho biết rằng các mô-đun được cài đặt tự động",
+                "title": "Đã cài đặt các mô-đun"
+            },
+            "ModulesAutoInstallState": {
+                "title": "Trạng thái tự động cài đặt mô-đun",
+                "description": "Trạng thái hiện tại của trình hướng dẫn tự động cài đặt mô-đun"
+            },
+            "SetupStep": {
+                "title": "Bước thiết lập hiện tại",
+                "description": "Bước hiện tại trong trình hướng dẫn thiết lập"
+            },
+            "SampleDataState": {
+                "title": "Trạng thái dữ liệu mẫu",
+                "description": "Trạng thái hiện tại của trình hướng dẫn dữ liệu mẫu"
+            },
+            "SendDiagnosticData": {
+                "title": "Gửi dữ liệu chẩn đoán",
+                "description": "Send VC Platform diagnostic data to VC. Can switch off only if a paid license acquired."// review "Gửi dữ liệu chẩn đoán VC tới VC. Chỉ có thể tắt nếu có giấy phép trả phí.
+            },
+            "Platform": {
+                "Security": {
+                    "AccountTypes": {
+                        "description": "Dictionary for possible user types",
+                        "title": "Loại người dùng"
+                    }
+                },
+                "UI": {
+                    "MainMenu": {
+                        "State": {
+                            "description": "Trạng thái tồn tại của menu chính",
+                            "title": "Trạng thái tồn tại của menu chính"
+                        }
+                    },
+                    "Language": {
+                        "description": "Ngôn ngữ mặc định (hai ký tự theo ISO 639-1, case-insensitive). Example: en, de, vi",
+                        "title": "Ngôn ngữ"
+                    },
+                    "RegionalFormat": {
+                        "description": "Định dạng khu vực mặc định (mã ngôn ngữ CLDR, với dấu gạch ngang hoặc dấu gạch dưới làm dấu phân cách, không phân biệt chữ hoa chữ thường). Ví dụ: en, en_US, sr_Cyrl, sr_Cyrl_RS",
+                        "title": "Định dạng khu vực"
+                    },
+                    "TimeZone": {
+                        "description": "Múi giờ mặc định (tên múi giờ IANA [cơ sở dữ liệu tz], chính xác như trong cơ sở dữ liệu, phân biệt chữ hoa chữ thường). Ví dụ: America / New_York, Europe / Moscow ",
+                        "title": "Múi giờ"
+                    },
+                    "UseTimeAgo": {
+                        "description": "Khi được đặt thành true (theo mặc định), hệ thống sẽ hiển thị ngày ở định dạng như 'một vài giây trước'",
+                        "title": "Use time ago format when is possible"// review "Sử dụng định dạng thời gian trước đó nếu có"
+                    },
+                    "FullDateThreshold": {
+                        "description": "Số đơn vị sau định dạng thời gian trước đó sẽ được chuyển sang định dạng ngày đầy đủ",
+                        "title": "Full date threshold"
+                    },
+                    "FullDateThresholdUnit": {
+                        "description": "Unit of full date threshold",
+                        "title": "Full date threshold unit"
+                    },
+                    "Customization": {
+                        "description": "JSON chứa cài đặt cá nhân hóa của giao diện người dùng người quản lý",
+                        "title": "Tùy chỉnh giao diện người quản lý"
+                    },
+                    "ShowMeridian": {
+                        "description": "Show time meridian indicator (AM or PM)", //review "Hiển thị chỉ báo kinh tuyến thời gian (SA hoặc CH)"
+                        "title": "Show time meridian"
+                    }
+                },
+                "Cache": {
+                    "Enabled": {
+                        "description": "Sử dụng cài đặt này, bạn có thể bật và tắt bộ nhớ cache cho toàn bộ ứng dụng nền tảng ",
+                        "title": "Bật hoặc tắt bộ nhớ cache "
+                    },
+                    "AbsoulteExpiration": {
+                        "description": "Chỉ định thời gian tối đa mà dữ liệu đã lưu trong bộ nhớ cache được lưu trong bộ nhớ cache. Định dạng: [-] [d.] Hh: mm: ss [.fffffff]",
+                        "title": "Thời gian tồn tại toàn cầu của các đối tượng trong bộ nhớ cache "
+                    }
+                }
+            }
+        }
+    }
+}
